@@ -1,18 +1,21 @@
-## Getting Started
+# Calculadora en Java con MVC
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto es una calculadora gráfica simple implementada en **Java** usando el patrón de diseño **Modelo-Vista-Controlador (MVC)**. La calculadora permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división, con una interfaz gráfica interactiva utilizando **Swing**.
 
-## Folder Structure
+## Descripción
 
-The workspace contains two folders by default, where:
+La calculadora está diseñada para demostrar cómo se puede implementar una aplicación con el patrón MVC. La **Vista (View)** es la interfaz gráfica que interactúa con el usuario, el **Controlador (Controller)** gestiona la comunicación entre la vista y el modelo, y el **Modelo (Model)** contiene la lógica de las operaciones matemáticas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Para ejecutar este proyecto necesitas:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Java Development Kit (JDK)** 8 o superior
+- Un entorno de desarrollo como **IntelliJ IDEA**, **Eclipse**, o simplemente la **línea de comandos**.
 
-## Dependency Management
+## Instrucciones de Instalación
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clonar el repositorio**:
+   ```bash
+   https://github.com/Luisfmillanr/CalculadoraJavaMVC.git
+
